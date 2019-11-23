@@ -19,7 +19,7 @@ stream = ["bytes"]
 
 [dependencies]
 log = "0.4"
-futures = "0.3"
+futures-preview = { version = "0.3.0-alpha.19", features = ["async-await"] }
 pin-project = "0.4"
 tokio-io = "0.2.0-alpha.6"
 
